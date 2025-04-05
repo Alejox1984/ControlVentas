@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+  <application xmlns="urn:schemas-microsoft-com:asm.v3">
+    <windowsSettings>
+      <!-- Compatibilidad con DPI alto -->
+      <dpiAware xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">true/pm</dpiAware>
+      
+      <!-- Opcional: habilitar tema visual en sistemas modernos -->
+      <enableVisualStyles xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">true</enableVisualStyles>
+    </windowsSettings>
+  </application>
+</assembly>
+ 

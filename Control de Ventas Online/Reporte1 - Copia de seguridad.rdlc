@@ -1,0 +1,22 @@
+<ReportItems>
+  <Textbox Name="Textbox1">
+    <CanGrow>true</CanGrow>
+    <KeepTogether>true</KeepTogether>
+    <Paragraphs>
+      <Paragraph>
+        <TextRuns>
+          <TextRun>
+            <Value>Este es un ejemplo de texto</Value>
+            <Style />
+          </TextRun>
+        </TextRuns>
+        <Style />
+      </Paragraph>
+    </Paragraphs>
+    <Left>0.5in</Left>
+    <Top>0.5in</Top>
+    <Width>2in</Width>
+    <Height>0.25in</Height>
+    <Style />
+  </Textbox>
+</ReportItems>

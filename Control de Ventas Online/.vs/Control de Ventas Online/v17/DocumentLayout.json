@@ -1,0 +1,191 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aleja\\source\\repos\\Control de Ventas Online\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC76BC6-28EA-4E37-A229-6EC62C01C2E5}|Control de Ventas Online.csproj|c:\\users\\aleja\\source\\repos\\control de ventas online\\fgestioncliente.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AC76BC6-28EA-4E37-A229-6EC62C01C2E5}|Control de Ventas Online.csproj|solutionrelative:fgestioncliente.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC76BC6-28EA-4E37-A229-6EC62C01C2E5}|Control de Ventas Online.csproj|C:\\Users\\aleja\\source\\repos\\Control de Ventas Online\\fgestioncliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AC76BC6-28EA-4E37-A229-6EC62C01C2E5}|Control de Ventas Online.csproj|solutionrelative:fgestioncliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC76BC6-28EA-4E37-A229-6EC62C01C2E5}|Control de Ventas Online.csproj|C:\\Users\\aleja\\source\\repos\\Control de Ventas Online\\fgestioncliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2AC76BC6-28EA-4E37-A229-6EC62C01C2E5}|Control de Ventas Online.csproj|solutionrelative:fgestioncliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB42F2F-C25B-4F60-935B-F4D48B349C1A}|..\\BLL\\BLL.csproj|c:\\users\\aleja\\source\\repos\\bll\\clientebll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC76BC6-28EA-4E37-A229-6EC62C01C2E5}|Control de Ventas Online.csproj|C:\\Users\\aleja\\source\\repos\\Control de Ventas Online\\fgestioncliente.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{2AC76BC6-28EA-4E37-A229-6EC62C01C2E5}|Control de Ventas Online.csproj|solutionrelative:fgestioncliente.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC76BC6-28EA-4E37-A229-6EC62C01C2E5}|Control de Ventas Online.csproj|C:\\Users\\aleja\\source\\repos\\Control de Ventas Online\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AC76BC6-28EA-4E37-A229-6EC62C01C2E5}|Control de Ventas Online.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC76BC6-28EA-4E37-A229-6EC62C01C2E5}|Control de Ventas Online.csproj|C:\\Users\\aleja\\source\\repos\\Control de Ventas Online\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AC76BC6-28EA-4E37-A229-6EC62C01C2E5}|Control de Ventas Online.csproj|solutionrelative:main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C7B1030-0FB3-4A66-9A36-861A82666DE7}|..\\DAL\\DAL.csproj|c:\\users\\aleja\\source\\repos\\dal\\clientedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC76BC6-28EA-4E37-A229-6EC62C01C2E5}|Control de Ventas Online.csproj|C:\\Users\\aleja\\source\\repos\\Control de Ventas Online\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2AC76BC6-28EA-4E37-A229-6EC62C01C2E5}|Control de Ventas Online.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC76BC6-28EA-4E37-A229-6EC62C01C2E5}|Control de Ventas Online.csproj|C:\\Users\\aleja\\source\\repos\\Control de Ventas Online\\main.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{2AC76BC6-28EA-4E37-A229-6EC62C01C2E5}|Control de Ventas Online.csproj|solutionrelative:main.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AC76BC6-28EA-4E37-A229-6EC62C01C2E5}|Control de Ventas Online.csproj|C:\\Users\\aleja\\source\\repos\\Control de Ventas Online\\app.manifest||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2AC76BC6-28EA-4E37-A229-6EC62C01C2E5}|Control de Ventas Online.csproj|solutionrelative:app.manifest||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FGestionCliente.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\source\\repos\\Control de Ventas Online\\FGestionCliente.Designer.cs",
+              "RelativeDocumentMoniker": "FGestionCliente.Designer.cs",
+              "ToolTip": "C:\\Users\\aleja\\source\\repos\\Control de Ventas Online\\FGestionCliente.Designer.cs",
+              "RelativeToolTip": "FGestionCliente.Designer.cs",
+              "ViewState": "AgIAAMAAAAAAAAAAAAD4v8wAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T20:07:35.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\source\\repos\\Control de Ventas Online\\Main.cs",
+              "RelativeDocumentMoniker": "Main.cs",
+              "ToolTip": "C:\\Users\\aleja\\source\\repos\\Control de Ventas Online\\Main.cs",
+              "RelativeToolTip": "Main.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAwwBUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T20:02:02.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FGestionCliente.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\source\\repos\\Control de Ventas Online\\FGestionCliente.cs",
+              "RelativeDocumentMoniker": "FGestionCliente.cs",
+              "ToolTip": "C:\\Users\\aleja\\source\\repos\\Control de Ventas Online\\FGestionCliente.cs",
+              "RelativeToolTip": "FGestionCliente.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAkwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T19:34:04.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClienteBLL.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\source\\repos\\BLL\\ClienteBLL.cs",
+              "RelativeDocumentMoniker": "..\\BLL\\ClienteBLL.cs",
+              "ToolTip": "C:\\Users\\aleja\\source\\repos\\BLL\\ClienteBLL.cs",
+              "RelativeToolTip": "..\\BLL\\ClienteBLL.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T19:47:12.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FGestionCliente.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\aleja\\source\\repos\\Control de Ventas Online\\FGestionCliente.cs",
+              "RelativeDocumentMoniker": "FGestionCliente.cs",
+              "ToolTip": "C:\\Users\\aleja\\source\\repos\\Control de Ventas Online\\FGestionCliente.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FGestionCliente.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T19:33:37.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FGestionCliente.resx",
+              "DocumentMoniker": "C:\\Users\\aleja\\source\\repos\\Control de Ventas Online\\FGestionCliente.resx",
+              "RelativeDocumentMoniker": "FGestionCliente.resx",
+              "ToolTip": "C:\\Users\\aleja\\source\\repos\\Control de Ventas Online\\FGestionCliente.resx",
+              "RelativeToolTip": "FGestionCliente.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-04-04T14:41:24.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Main.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\source\\repos\\Control de Ventas Online\\Main.Designer.cs",
+              "RelativeDocumentMoniker": "Main.Designer.cs",
+              "ToolTip": "C:\\Users\\aleja\\source\\repos\\Control de Ventas Online\\Main.Designer.cs",
+              "RelativeToolTip": "Main.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T20:02:49.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClienteDAL.cs",
+              "DocumentMoniker": "C:\\Users\\aleja\\source\\repos\\DAL\\ClienteDAL.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\ClienteDAL.cs",
+              "ToolTip": "C:\\Users\\aleja\\source\\repos\\DAL\\ClienteDAL.cs",
+              "RelativeToolTip": "..\\DAL\\ClienteDAL.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAADwv0EAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T20:06:05.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.manifest",
+              "DocumentMoniker": "C:\\Users\\aleja\\source\\repos\\Control de Ventas Online\\App.manifest",
+              "RelativeDocumentMoniker": "App.manifest",
+              "ToolTip": "C:\\Users\\aleja\\source\\repos\\Control de Ventas Online\\App.manifest",
+              "RelativeToolTip": "App.manifest",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
+              "WhenOpened": "2025-04-02T15:58:05.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Main.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\aleja\\source\\repos\\Control de Ventas Online\\Main.cs",
+              "RelativeDocumentMoniker": "Main.cs",
+              "ToolTip": "C:\\Users\\aleja\\source\\repos\\Control de Ventas Online\\Main.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Main.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T03:29:20.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Main.resx",
+              "DocumentMoniker": "C:\\Users\\aleja\\source\\repos\\Control de Ventas Online\\Main.resx",
+              "RelativeDocumentMoniker": "Main.resx",
+              "ToolTip": "C:\\Users\\aleja\\source\\repos\\Control de Ventas Online\\Main.resx",
+              "RelativeToolTip": "Main.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-04-02T04:29:55.307Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

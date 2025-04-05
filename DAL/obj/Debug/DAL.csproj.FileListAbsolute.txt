@@ -1,0 +1,8 @@
+C:\Users\aleja\source\repos\DAL\bin\Debug\DAL.dll
+C:\Users\aleja\source\repos\DAL\bin\Debug\DAL.pdb
+C:\Users\aleja\source\repos\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\aleja\source\repos\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\aleja\source\repos\DAL\obj\Debug\DAL.dll
+C:\Users\aleja\source\repos\DAL\obj\Debug\DAL.pdb
+C:\Users\aleja\source\repos\DAL\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\aleja\source\repos\DAL\obj\Debug\DAL.csproj.Up2Date
