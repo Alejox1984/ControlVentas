@@ -8,3 +8,11 @@ C:\Users\aleja\source\repos\BLL\obj\Debug\BLL.csproj.Up2Date
 C:\Users\aleja\source\repos\BLL\obj\Debug\BLL.dll
 C:\Users\aleja\source\repos\BLL\obj\Debug\BLL.pdb
 C:\Users\aleja\source\repos\BLL\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\aleja\source\repos\BLL\bin\Debug\Dapper.dll
+C:\Users\aleja\source\repos\BLL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\aleja\source\repos\BLL\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\aleja\source\repos\BLL\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\aleja\source\repos\BLL\bin\Debug\Dapper.xml
+C:\Users\aleja\source\repos\BLL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\aleja\source\repos\BLL\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\aleja\source\repos\BLL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml

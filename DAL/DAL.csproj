@@ -31,11 +31,23 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Dapper, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\Control de Ventas Online\packages\Dapper.2.1.66\lib\net461\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=9.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\Control de Ventas Online\packages\Microsoft.Bcl.AsyncInterfaces.9.0.1\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\Control de Ventas Online\packages\Microsoft.ReportViewer.WinForms.10.0.40219.1\lib\Microsoft.ReportViewer.WinForms.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\Control de Ventas Online\packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\Control de Ventas Online\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -45,24 +57,42 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CategoriaDAL.cs" />
-    <Compile Include="DetallOperacionDAL.cs" />
-    <Compile Include="HistorialPagosCompraDAL.cs" />
-    <Compile Include="OperacionContableCompraDAL.cs" />
-    <Compile Include="OperacionContableDAL.cs" />
-    <Compile Include="PlataformaDAL.cs" />
-    <Compile Include="StatusCompraDAL.cs" />
-    <Compile Include="StatusProductoDAL.cs" />
-    <Compile Include="TasasDAL.cs" />
-    <Compile Include="TipoOperacionDAL.cs" />
-    <Compile Include="TiposPagoDAL.cs" />
-    <Compile Include="TProductoDAL.cs" />
-    <Compile Include="TCompraDAL.cs" />
-    <Compile Include="ClienteDAL.cs" />
+    <Compile Include="DataAcces\CategoriaDAL.cs" />
+    <Compile Include="DataAcces\DetallOperacionDAL.cs" />
+    <Compile Include="DataAcces\HistorialPagosCompraDAL.cs" />
+    <Compile Include="DataAcces\OperacionContableCompraDAL.cs" />
+    <Compile Include="DataAcces\OperacionContableDAL.cs" />
+    <Compile Include="DataAcces\PlataformaDAL.cs" />
+    <Compile Include="DataAcces\StatusCompraDAL.cs" />
+    <Compile Include="DataAcces\StatusProductoDAL.cs" />
+    <Compile Include="DataAcces\TasasDAL.cs" />
+    <Compile Include="DataAcces\TipoOperacionDAL.cs" />
+    <Compile Include="DataAcces\TiposPagoDAL.cs" />
+    <Compile Include="DataAcces\TProductoDAL.cs" />
+    <Compile Include="DataAcces\TCompraDAL.cs" />
+    <Compile Include="DataAcces\ClienteDAL.cs" />
+    <Compile Include="Entidades\Compra.cs" />
+    <Compile Include="Entidades\HistorialPagoCompra.cs" />
+    <Compile Include="Entidades\OpContableCompra.cs" />
+    <Compile Include="Entidades\OperacionContable.cs" />
+    <Compile Include="Entidades\Cliente.cs" />
+    <Compile Include="Interfaces\IHistorialPagoCompra.cs" />
+    <Compile Include="Interfaces\IOpContableCompra.cs" />
+    <Compile Include="Interfaces\IClienteRepository.cs" />
+    <Compile Include="Interfaces\ICompraRepository.cs" />
+    <Compile Include="Interfaces\IOperacionContableRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositorios\HistorialPagoRepositorio.cs" />
+    <Compile Include="Repositorios\OpContableCompraRepositorio.cs" />
+    <Compile Include="Repositorios\OperacionContableRepositorio.cs" />
+    <Compile Include="Repositorios\ClienteRepositorio.cs" />
+    <Compile Include="Repositorios\CompraRepositorio.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Contextos\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

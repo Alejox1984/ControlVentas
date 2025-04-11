@@ -45,21 +45,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CategoriaBLL.cs" />
-    <Compile Include="TiposPagoBLL.cs" />
-    <Compile Include="TipoOperacionBLL.cs" />
-    <Compile Include="TasasBLL.cs" />
-    <Compile Include="OperacionContableBLL.cs" />
-    <Compile Include="OperacionContableCompraBLL.cs" />
-    <Compile Include="DetalleOperacionBLL.cs" />
-    <Compile Include="HistorialPagosCompraBLL.cs" />
-    <Compile Include="PlataformaBLL.cs" />
-    <Compile Include="StatusCompraBLL.cs" />
-    <Compile Include="StatusProductoBLL.cs" />
-    <Compile Include="TCompraBLL.cs" />
-    <Compile Include="ClienteBLL.cs" />
+    <Compile Include="Modelos\CategoriaBLL.cs" />
+    <Compile Include="Modelos\TiposPagoBLL.cs" />
+    <Compile Include="Modelos\TipoOperacionBLL.cs" />
+    <Compile Include="Modelos\TasasBLL.cs" />
+    <Compile Include="Modelos\OperacionContableBLL.cs" />
+    <Compile Include="Modelos\OperacionContableCompraBLL.cs" />
+    <Compile Include="Modelos\DetalleOperacionBLL.cs" />
+    <Compile Include="Modelos\HistorialPagosCompraBLL.cs" />
+    <Compile Include="Modelos\PlataformaBLL.cs" />
+    <Compile Include="Modelos\StatusCompraBLL.cs" />
+    <Compile Include="Modelos\StatusProductoBLL.cs" />
+    <Compile Include="Modelos\TCompraBLL.cs" />
+    <Compile Include="Modelos\ClienteBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TProductoBLL.cs" />
+    <Compile Include="Modelos\TProductoBLL.cs" />
+    <Compile Include="Servicios\ClienteService.cs" />
+    <Compile Include="Servicios\CompraService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj">
@@ -69,6 +71,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

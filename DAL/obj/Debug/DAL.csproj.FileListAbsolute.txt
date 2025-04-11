@@ -6,3 +6,11 @@ C:\Users\aleja\source\repos\DAL\obj\Debug\DAL.dll
 C:\Users\aleja\source\repos\DAL\obj\Debug\DAL.pdb
 C:\Users\aleja\source\repos\DAL\bin\Debug\Microsoft.ReportViewer.WinForms.dll
 C:\Users\aleja\source\repos\DAL\obj\Debug\DAL.csproj.Up2Date
+C:\Users\aleja\source\repos\DAL\bin\Debug\Dapper.dll
+C:\Users\aleja\source\repos\DAL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\aleja\source\repos\DAL\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\aleja\source\repos\DAL\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\aleja\source\repos\DAL\bin\Debug\Dapper.xml
+C:\Users\aleja\source\repos\DAL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\aleja\source\repos\DAL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\aleja\source\repos\DAL\bin\Debug\System.Threading.Tasks.Extensions.xml
