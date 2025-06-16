@@ -8,23 +8,23 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using BLL.Servicios;
+using Control_de_Ventas_Online.Forms;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Control_de_Ventas_Online
 {
     public partial class Main: Form
 
     {
-        private readonly CompraService _compraService;
-        private readonly ClienteService _clienteService;
-        public Main(CompraService compraService, ClienteService clienteService)
+        private readonly IServiceProvider _serviceProvider;
+        public Main(IServiceProvider serviceProvider)
         {
 
             InitializeComponent();
+            _serviceProvider = serviceProvider;
             this.WindowState = FormWindowState.Maximized;
             this.MaximizeBox = false;
             this.FormBorderStyle = FormBorderStyle.Sizable;
-            _compraService = compraService;
-            _clienteService = clienteService;
         }
 
         public void CargarSubformulario(Form subFormulario)
@@ -45,7 +45,6 @@ namespace Control_de_Ventas_Online
             subFormulario.Show();
         }
 
-
         private void Main_Load(object sender, EventArgs e)
         {
 
@@ -59,8 +58,14 @@ namespace Control_de_Ventas_Online
 
         private void btnCompras_Click(object sender, EventArgs e)
         {
-            FNuevaCompra nuevaCompra = new FNuevaCompra(_compraService, _clienteService);
+            var nuevaCompra = _serviceProvider.GetRequiredService<FNuevaCompra>();
             CargarSubformulario(nuevaCompra);
+        }
+
+        private void btnOperaciones_Click(object sender, EventArgs e)
+        {
+            var operaciones = _serviceProvider.GetRequiredService<FOperaciones>();
+            CargarSubformulario(operaciones);
         }
     }
 }

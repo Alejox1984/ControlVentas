@@ -7,6 +7,7 @@ using DAL.Interfaces;
 using DAL.Entidades;
 using DAL.Repositories;
 using System.Runtime.InteropServices;
+using System.Windows.Forms;
 
 namespace BLL.Servicios
 {
@@ -14,15 +15,15 @@ namespace BLL.Servicios
     public class CompraService
     {
         private readonly ICompraRepository _compraRepository;
-        private readonly IOperacionContableRepository _operacionContableRepository;
+        private readonly IOpContableRepository _operacionContableRepository;
         private readonly IOpContableCompraRepository _opContableCompraRepository;
-        private readonly IHistorialPagosCompraRepository _historialPagosCompraRepository;
+        private readonly IHistorialPagoCompra _historialPagosCompraRepository;
 
         public CompraService(
             ICompraRepository compraRepository,
-            IOperacionContableRepository operacionContableRepository,
+            IOpContableRepository operacionContableRepository,
             IOpContableCompraRepository opContableCompraRepository,
-            IHistorialPagosCompraRepository historialPagosCompraRepository)
+            IHistorialPagoCompra historialPagosCompraRepository)
         {
             _compraRepository = compraRepository;
             _operacionContableRepository = operacionContableRepository;
@@ -56,14 +57,14 @@ namespace BLL.Servicios
                 _opContableCompraRepository.AddOpContableCompra(new OpContableCompra
                 {
                     idCompra = idCompra,
-                    idOperacionContable = idOperacionContable
+                    idOpContable = idOperacionContable
                 });
 
                 // 4. Insertar en THistorialPagosCompra
-                _historialPagosCompraRepository.InsertarHistorialPagos(new HistorialPagoCompra
+                _historialPagosCompraRepository.AddOpHistorialPago(new HistorialPagoCompra
                 {
                     idCompra = idCompra,
-                    idpago = 1, // Pagos estándar
+                    idPago = 1, // Pagos estándar
                     importe = nuevaOperacion.importe,
                     fecha = nuevaCompra.fecha
                 });
@@ -71,7 +72,7 @@ namespace BLL.Servicios
                 // Si hay anticipo, insertar otro registro en THistorialPagosCompra
                 if (anticipo.HasValue && anticipo.Value > 0)
                 {
-                    _historialPagosCompraRepository.InsertarHistorialPagos(new HistorialPagoCompra
+                    _historialPagosCompraRepository.AddOpHistorialPago(new HistorialPagoCompra
                     {
                         idCompra = idCompra,
                         idPago = 2, // Anticipo
@@ -79,11 +80,54 @@ namespace BLL.Servicios
                         fecha = nuevaCompra.fecha
                     });
                 }
+                MessageBox.Show("Nueva compra registrada", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+             
             catch (Exception ex)
             {
                 throw new Exception($"Error al insertar la compra completa: {ex.Message}", ex);
             }
         }
+        public int UltimaCompraID() 
+        {
+            return _compraRepository.UltimaCompra();
+        }
+        public void ActualizarCompraIDGastoIDIngreso(int idCompra, int idIngreso, int idGasto) 
+        {
+            try
+            {
+              _compraRepository.ModificarCompraIngresoGasto(idCompra, idIngreso, idGasto);
+
+             MessageBox.Show("Pedido Finalizado", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"Error al Finalizar Pedido: {ex.Message}", ex);
+            }
+        }
+        
+        /// <summary>
+        /// Elimina una compra y sus relaciones, manejando errores y retornando mensajes amigables.
+        /// </summary>
+        /// <param name="idCompra">ID de la compra</param>
+        /// <returns>Mensaje de éxito o error</returns>
+        public string EliminarCompra(int idCompra) 
+        {
+            try
+            {
+                _compraRepository.EliminarCompra(idCompra);
+                return "Compra eliminada con éxito";
+            }
+            catch (KeyNotFoundException ex)
+            {
+                return ex.Message; // Ej: "La compra no existe o ya fue eliminada"
+            }
+            catch (Exception ex)
+            {
+                return "Error al eliminar la compra: " + ex.Message;
+            }
+        }
     }
-}
+    }
+

@@ -2,14 +2,15 @@
 using DAL.Entidades;
 using System.Data.SqlClient;
 using Dapper;
+using System.Data;
 
 namespace DAL.Repositories
 {
     public class HistorialPagosCompraRepository : IHistorialPagoCompra
     {
-        private readonly SqlConnection _dbConnection;
+        private readonly IDbConnection _dbConnection;
 
-        public HistorialPagosCompraRepository(SqlConnection dbConnection)
+        public HistorialPagosCompraRepository(IDbConnection dbConnection)
         {
             _dbConnection = dbConnection;
         }
@@ -17,7 +18,7 @@ namespace DAL.Repositories
         // Implementación del método para insertar en THistorialPagosCompra
         public void AddOpHistorialPago(HistorialPagoCompra historialPagosCompra)
         {
-            var query = "INSERT INTO THistorialPagosCompra (IdCompra, IdPagos, Importe, Fecha) VALUES (@IdCompra, @IdPagos, @Importe, @Fecha)";
+            var query = "INSERT INTO THistorialPagosCompra (IdCompra, IdPago, Importe, Fecha) VALUES (@IdCompra, @IdPago, @Importe, @Fecha)";
             _dbConnection.Execute(query, historialPagosCompra);
         }
     }

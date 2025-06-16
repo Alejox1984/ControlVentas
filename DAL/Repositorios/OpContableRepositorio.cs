@@ -2,14 +2,15 @@
 using DAL.Entidades;
 using System.Data.SqlClient;
 using Dapper;
+using System.Data;
 
 namespace DAL.Repositories
 {
-    public class OperacionContableRepository : IOpContableCompra
+    public class OperacionContableRepository : IOpContableRepository
     {
-        private readonly SqlConnection _dbConnection;
+        private readonly IDbConnection _dbConnection;
 
-        public OperacionContableRepository(SqlConnection dbConnection)
+        public OperacionContableRepository(IDbConnection dbConnection)
         {
             _dbConnection = dbConnection;
         }

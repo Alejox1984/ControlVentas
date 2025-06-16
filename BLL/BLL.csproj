@@ -60,8 +60,14 @@
     <Compile Include="Modelos\ClienteBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Modelos\TProductoBLL.cs" />
+    <Compile Include="Servicios\CategoriaService.cs" />
     <Compile Include="Servicios\ClienteService.cs" />
     <Compile Include="Servicios\CompraService.cs" />
+    <Compile Include="Servicios\OpContableCompraService.cs" />
+    <Compile Include="Servicios\OpContableService.cs" />
+    <Compile Include="Servicios\PlataformaService.cs" />
+    <Compile Include="Servicios\ProductoService.cs" />
+    <Compile Include="Servicios\TasasService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj">

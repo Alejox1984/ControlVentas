@@ -13,5 +13,6 @@ namespace DAL.Interfaces
         /// Inserta una nueva operación contable para Compra Online especificamente y devuelve el ID generado.
         /// </summary>
         void AddOpContableCompra(OpContableCompra _opContableCompra);
+        (int IdIngreso,int  IdGasto) IdsOpContableCompraActiva(int idCompraActiva);
     }
 }

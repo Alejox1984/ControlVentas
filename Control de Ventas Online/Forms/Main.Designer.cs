@@ -119,6 +119,7 @@ namespace Control_de_Ventas_Online
             this.btnOperaciones.TabIndex = 2;
             this.btnOperaciones.Text = "Operaciones";
             this.btnOperaciones.UseVisualStyleBackColor = false;
+            this.btnOperaciones.Click += new System.EventHandler(this.btnOperaciones_Click);
             // 
             // btnCliente
             // 

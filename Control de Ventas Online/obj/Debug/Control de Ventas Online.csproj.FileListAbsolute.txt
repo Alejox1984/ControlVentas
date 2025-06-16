@@ -78,3 +78,8 @@ C:\Users\aleja\source\repos\Control de Ventas Online\bin\Debug\Microsoft.Bcl.Asy
 C:\Users\aleja\source\repos\Control de Ventas Online\bin\Debug\System.Configuration.ConfigurationManager.xml
 C:\Users\aleja\source\repos\Control de Ventas Online\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\aleja\source\repos\Control de Ventas Online\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\aleja\source\repos\Control de Ventas Online\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\aleja\source\repos\Control de Ventas Online\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\aleja\source\repos\Control de Ventas Online\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\aleja\source\repos\Control de Ventas Online\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\aleja\source\repos\Control de Ventas Online\obj\Debug\Control_de_Ventas_Online.Forms.FOperaciones.resources

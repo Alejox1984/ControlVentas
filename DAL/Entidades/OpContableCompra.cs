@@ -8,8 +8,7 @@ namespace DAL.Entidades
 {
     public class OpContableCompra
     {
-        public int idOperacionContable;
-
+       
         public int idOpContableCompra { get; set; }
         public int idCompra { get; set; }
         public int idOpContable { get; set; }

@@ -8,8 +8,6 @@ namespace DAL.Entidades
 {
     public class HistorialPagoCompra
     {
-        public int idpago;
-
         public int idHistorialPagosCompra { get; set; }
         public int idCompra { get; set; }
         public int idPago { get; set; }
